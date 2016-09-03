@@ -1,0 +1,15 @@
+
+Gurobi 6.5.0 (mac64) logging started Wed Dec 16 21:38:30 2015
+
+
+Gurobi 6.5.0 (mac64) logging started Wed Dec 16 21:40:03 2015
+
+
+Gurobi 6.5.0 (mac64) logging started Wed Dec 16 21:40:40 2015
+
+Read LP format model from file /Library/gurobi650/mac64/examples/data/coins.lp
+Reading time = 0.01 seconds
+(null): 4 rows, 9 columns, 16 nonzeros
+
+    Variable            X 
+-------------------------

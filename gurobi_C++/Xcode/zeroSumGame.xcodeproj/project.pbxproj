@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0FE60F4F73924B078F74EFF8 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1FF49DB59D3240198283A34D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				59F8876E60D845DCB16C7390 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		CBBE83F9BC4F413F948D0E86 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F9DD24206B5C4B9295F8BAC1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D0837E400F3A4EB5A02CBF11 /* CMake Rules */,
+			);
+			dependencies = (
+				C585B13AF75647E2AF8ACA68 /* PBXTargetDependency */,
+				192D86ABA6C245B4951DA3D3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6517712B86A5428AA8D533A7 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/ZeroSumGame.cpp */ = {isa = PBXBuildFile; fileRef = DC60007598244802A43B9BD4 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/ZeroSumGame.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CCB450164402496492AB95AD /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EED7A196524F4695910E7384 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		F6B692E2F2A742DE9B9E4756 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/test_.cpp */ = {isa = PBXBuildFile; fileRef = 265F996B50F5430595113B1A /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/test_.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		051FF8E04EB14FB48E322D3C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6D34D05AFB5544DB9938ADF5 = {
+			isa = PBXBuildStyle;
+		};
+		80CC5C7C42A0408D8D6F7667 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		82802F1EC4534240863DAC9A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C950B787C94640DD9354C369 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		962C4CAB1C844DA5946CA781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C75A3DA17A341469E77EF6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FE60F4F73924B078F74EFF8;
+			remoteInfo = ZERO_CHECK;
+		};
+		BA2C691D7E664FE48EA72003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C75A3DA17A341469E77EF6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FE60F4F73924B078F74EFF8;
+			remoteInfo = ZERO_CHECK;
+		};
+		C7CFDA9942B24833BF79D91B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C75A3DA17A341469E77EF6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1178550FB5444BACAF190983;
+			remoteInfo = test_;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		265F996B50F5430595113B1A /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/test_.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test_.cpp; path = src/test_.cpp; sourceTree = SOURCE_ROOT; };
+		C6EE3E1C6F8C4FFAA21225D7 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DC60007598244802A43B9BD4 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/ZeroSumGame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ZeroSumGame.cpp; path = src/ZeroSumGame.cpp; sourceTree = SOURCE_ROOT; };
+		EED7A196524F4695910E7384 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F226B666762C4E2993F6E929 /* test_ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = test_; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		F389D64786ED468DB711D92E /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2480C0376A1A4B108F3865C5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		29706868B41D49F591C11014 = {
+			isa = PBXGroup;
+			children = (
+				FEDE2AA4C0474134AAFE519C /* Sources */,
+				FF34F091A0284F0CA81897D9 /* Resources */,
+				BC64E32DB9224C9B90795103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3D8992F56E49988D6C43AD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2480C0376A1A4B108F3865C5 /* CMake Rules */,
+				F389D64786ED468DB711D92E /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		61778E4DF14D4DEB830CF928 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC60007598244802A43B9BD4 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/ZeroSumGame.cpp */,
+				265F996B50F5430595113B1A /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/test_.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		671AFAAB62FA420D995BDA2A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BC64E32DB9224C9B90795103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F226B666762C4E2993F6E929 /* test_ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0C4923455243A289FA56CF /* test_ */ = {
+			isa = PBXGroup;
+			children = (
+				61778E4DF14D4DEB830CF928 /* Source Files */,
+				EED7A196524F4695910E7384 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/CMakeLists.txt */,
+			);
+			name = test_;
+			sourceTree = "<group>";
+		};
+		DEF02650D1074131AE4AC6EB /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				671AFAAB62FA420D995BDA2A /* CMake Rules */,
+				C6EE3E1C6F8C4FFAA21225D7 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		FEDE2AA4C0474134AAFE519C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BE0C4923455243A289FA56CF /* test_ */,
+				4C3D8992F56E49988D6C43AD /* ALL_BUILD */,
+				DEF02650D1074131AE4AC6EB /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		FF34F091A0284F0CA81897D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1178550FB5444BACAF190983 /* test_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF3C669E72D4DCEAA6E641B /* Build configuration list for PBXNativeTarget "test_" */;
+			buildPhases = (
+				52619E1424F04BD7ABC974D4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBEB29F0838248BFB90B4BD4 /* PBXTargetDependency */,
+			);
+			name = test_;
+			productName = test_;
+			productReference = F226B666762C4E2993F6E929 /* test_ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C75A3DA17A341469E77EF6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = EBA50156A30744278697BD99 /* Build configuration list for PBXProject "zeroSumGame" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C950B787C94640DD9354C369 /* Debug */,
+				051FF8E04EB14FB48E322D3C /* Release */,
+				82802F1EC4534240863DAC9A /* MinSizeRel */,
+				80CC5C7C42A0408D8D6F7667 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 29706868B41D49F591C11014;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				CBBE83F9BC4F413F948D0E86 /* ALL_BUILD */,
+				0FE60F4F73924B078F74EFF8 /* ZERO_CHECK */,
+				1178550FB5444BACAF190983 /* test_ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BEA3173C514C888079BC0B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		59F8876E60D845DCB16C7390 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode -f /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A5CA20F2862C44B4A1836265 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D0837E400F3A4EB5A02CBF11 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode -f /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52619E1424F04BD7ABC974D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6517712B86A5428AA8D533A7 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/ZeroSumGame.cpp */,
+				F6B692E2F2A742DE9B9E4756 /* /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/src/test_.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		192D86ABA6C245B4951DA3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1178550FB5444BACAF190983 /* test_ */;
+			targetProxy = C7CFDA9942B24833BF79D91B /* PBXContainerItemProxy */;
+		};
+		C585B13AF75647E2AF8ACA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FE60F4F73924B078F74EFF8 /* ZERO_CHECK */;
+			targetProxy = 962C4CAB1C844DA5946CA781 /* PBXContainerItemProxy */;
+		};
+		EBEB29F0838248BFB90B4BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FE60F4F73924B078F74EFF8 /* ZERO_CHECK */;
+			targetProxy = BA2C691D7E664FE48EA72003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A25D049A452443B89A2C471 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		24B17FB496AC41C5BDE9E629 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgurobi_c++ -lgurobi65 -lblas -llapack";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		32188AD9332945E1871A4F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		3DDF3B58D84C49B793EE0DCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode/build";
+			};
+			name = Release;
+		};
+		444426C0203F475C813CE77C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode/build";
+			};
+			name = Debug;
+		};
+		447BD8D2AE304B93B1BF6200 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		6248E9DD3DDB425BA6CEE2BB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		6445370257504AEDACC2BDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		6CD01C99268F4E238AE47DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		99E24BC8EEAB421689674AD8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		B4166484A23E43C39BACD5A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgurobi_c++ -lgurobi65 -lblas -llapack";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		C365CDAC68214E9F8E5DBF8C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		DD98F270C1D64368BE64FBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgurobi_c++ -lgurobi65 -lblas -llapack";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		EB135F1EEC374DDFAF3DEA9C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		FD2E919CB8CE4EAAA537A908 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/lib";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lgurobi_c++ -lgurobi65 -lblas -llapack";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		FFE1D5205FDD463195AD7E0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/xiangli/Data/InformationTechnology/GameTheory/program/gurobi_C++/Xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FF49DB59D3240198283A34D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CD01C99268F4E238AE47DBF /* Debug */,
+				32188AD9332945E1871A4F00 /* Release */,
+				C365CDAC68214E9F8E5DBF8C /* MinSizeRel */,
+				6248E9DD3DDB425BA6CEE2BB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4EF3C669E72D4DCEAA6E641B /* Build configuration list for PBXNativeTarget "test_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD98F270C1D64368BE64FBEB /* Debug */,
+				B4166484A23E43C39BACD5A4 /* Release */,
+				24B17FB496AC41C5BDE9E629 /* MinSizeRel */,
+				FD2E919CB8CE4EAAA537A908 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EBA50156A30744278697BD99 /* Build configuration list for PBXProject "zeroSumGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				444426C0203F475C813CE77C /* Debug */,
+				3DDF3B58D84C49B793EE0DCE /* Release */,
+				447BD8D2AE304B93B1BF6200 /* MinSizeRel */,
+				EB135F1EEC374DDFAF3DEA9C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9DD24206B5C4B9295F8BAC1 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6445370257504AEDACC2BDC2 /* Debug */,
+				FFE1D5205FDD463195AD7E0B /* Release */,
+				1A25D049A452443B89A2C471 /* MinSizeRel */,
+				99E24BC8EEAB421689674AD8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C75A3DA17A341469E77EF6B /* Project object */;
+}
